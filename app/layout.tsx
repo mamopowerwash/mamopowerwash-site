@@ -9,7 +9,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head />
+      <body style={{ margin: 0, fontFamily: "Arial" }}>
+        {children}
+      </body>
     </html>
   );
 }
